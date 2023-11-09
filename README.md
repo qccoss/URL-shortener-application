@@ -21,7 +21,7 @@ To set up the URL Shortener Application on your local machine, follow these step
 ## Usage
 
 To start the application, run the following command in the terminal:
-```flask run```
+```python main.py```
 
 ### Shortening a URL
 
