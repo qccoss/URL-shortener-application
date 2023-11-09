@@ -13,7 +13,14 @@ This is a simple URL shortener service similar to TinyURL or Bit.ly, which allow
 To set up the URL Shortener Application on your local machine, follow these steps:
 
 1. Clone the repository: https://github.com/qccoss/URL-shortener-application.git
-3. Navigate to the project directory.
+2. Navigate to the project directory:
+```cd path/to/URL-shortener-application```
+3. Create virtual environment:
+   for Windows:
+   ```python -m venv venv```
+   for macOS or Linux:
+   ```python3 -m venv venv
+   source venv/bin/activate```
 4. Install the required dependencies:
 ```pip install -r requirements.txt```
 
