@@ -15,13 +15,13 @@ To set up the URL Shortener Application on your local machine, follow these step
 1. Clone the repository: https://github.com/qccoss/URL-shortener-application.git
 3. Navigate to the project directory.
 4. Install the required dependencies:
-   pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 ## Usage
 
 To start the application, run the following command in the terminal:
-  flask run
+```flask run```
 
 ### Shortening a URL
 
@@ -32,5 +32,5 @@ Send a POST request to `/shorten` with a JSON payload containing the URL:
   "url": "https://www.example.com/"
 }
 ```
-Redirecting to the Original URL
+### Redirecting to the Original URL
 Access the original URL by visiting /<shortcode> in your browser or sending a GET request.
