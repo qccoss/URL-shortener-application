@@ -97,6 +97,7 @@ def redirect_to_url(shortcode):
 
     data["lastRedirect"] = datetime.datetime.now().isoformat()
     data["redirectCount"] += 1
+    save_data("shortener_app_data.json", url_data)
 
     return redirect(data["url"], code=302)
 
