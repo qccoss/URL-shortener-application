@@ -19,9 +19,7 @@ To set up the URL Shortener Application on your local machine, follow these step
 - for Windows:
    ```python -m venv venv```
 - for macOS or Linux:
-   ```python3 -m venv venv
-source venv/bin/activate
-```
+   ```python3 -m venv venv```
 4. Install the required dependencies:
 ```pip install -r requirements.txt```
 
