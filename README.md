@@ -34,3 +34,7 @@ Send a POST request to `/shorten` with a JSON payload containing the URL:
 ```
 ### Redirecting to the Original URL
 Access the original URL by visiting /<shortcode> in your browser or sending a GET request.
+
+### Getting URL Statistics
+Send a GET request to /<shortcode>/stats to retrieve statistics about the URL associated with the shortcode.
+
