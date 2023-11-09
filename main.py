@@ -41,10 +41,6 @@ app = Flask(__name__)
 
 @app.route('/shorten', methods=['POST'])
 def url_shortener():
-    # data = {
-    #     "url": "https://www.google.com/",
-    #     "shortcode": None
-    # }
     """
     Shorten a URL and return the shortcode.
 
