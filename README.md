@@ -25,7 +25,7 @@ To start the application, run the following command in the terminal:
 
 ### Shortening a URL
 
-Send a POST request to `/shorten` with a JSON payload containing the URL:
+Send a POST request to `/shorten` with a JSON object containing the URL:
 
 ```json
 {
