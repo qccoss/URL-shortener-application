@@ -16,9 +16,9 @@ To set up the URL Shortener Application on your local machine, follow these step
 2. Navigate to the project directory:
 ```cd path/to/URL-shortener-application```
 3. Create virtual environment:
-   for Windows:
+- for Windows:
    ```python -m venv venv```
-   for macOS or Linux:
+- for macOS or Linux:
    ```python3 -m venv venv
    source venv/bin/activate```
 4. Install the required dependencies:
