@@ -31,6 +31,6 @@ Send a POST request to `/shorten` with a JSON payload containing the URL:
 {
   "url": "https://www.example.com/"
 }
-
+```
 Redirecting to the Original URL
 Access the original URL by visiting /<shortcode> in your browser or sending a GET request.
