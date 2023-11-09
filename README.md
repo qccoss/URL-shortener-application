@@ -26,6 +26,11 @@ To set up the URL Shortener Application on your local machine, follow these step
 
 ## Usage
 
+Activate virtual environment:
+- for Windows:
+   ```venv\Scripts\activate```
+- for macOS or Linux:
+   ```source venv/bin/activate```
 To start the application, run the following command in the terminal:
 ```python main.py```
 
